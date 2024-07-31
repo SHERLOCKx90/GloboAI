@@ -1,4 +1,4 @@
-# GloboAI
+# GloboAI 🌏
 
 ## The Ultimate AI Guided Trip Planner ⛺
 
