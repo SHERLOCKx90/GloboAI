@@ -4,12 +4,12 @@ import { getAnalytics } from "firebase/analytics";
 import { getFirestore } from "firebase/firestore"
 
 const firebaseConfig = {
-    apiKey: "AIzaSyD8EurdO1fXmCpncG7WFC95uW7Ul3f_C9M",
+    apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
     authDomain: "globo-ai-001.firebaseapp.com",
     projectId: "globo-ai-001",
     storageBucket: "globo-ai-001.appspot.com",
-    messagingSenderId: "755765546167",
-    appId: "1:755765546167:web:98b3f46f4f3aef43651132",
+    messagingSenderId: `${import.meta.env.VITE_FIREBASE_MSSG_SEND_ID}`,
+    appId: `${import.meta.env.VITE_FIREBASE_APP_ID}`,
     measurementId: "G-SFD308XSPV"
 };
 
